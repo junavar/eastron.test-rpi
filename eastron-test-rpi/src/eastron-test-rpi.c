@@ -109,7 +109,7 @@ int main(int argc, char *argv[]) {
 	// este retardo es importante para que llegue los 9 caracters de la respuesta en un único read
 	// El chip de Prolific requiere 100ms para recibir los 9 bytes de una trama en cable corto 1,5m a 9600bps. (1 fallo de 40).
 	// Por seguridad se pone más retardo
-	// El chip CH-340 es  más rápido 10us funciona para la misma longitud
+	// El chip CH-340 es  más rápido 10us  funciona para la misma longitud
 	// No se ha comprobado la incidencia con la longitud del  cable
 	usleep(150000);
 
