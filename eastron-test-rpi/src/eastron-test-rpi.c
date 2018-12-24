@@ -11,6 +11,7 @@
 
 union {
 	char c[4];
+
 	float f;
 } u;
 
